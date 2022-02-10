@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(#684dfd, #160f2c);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #7797ff, #684dfd);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px  rgba(0, 0, 0, 0.5);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 10%;
+    border-radius: 5px;
+    background: #505050;
+    font-family: "Dongle", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    border-bottom: solid 3px rgb(32, 32, 32);
+}
+
+.input{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font-family: "Dongle", sans-serif;
+    font-size: 30px;
+    color: #160f2c;
+    text-align: center;
+    box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.input label{
+    font-family: "Dongle", sans-serif;
+    font-size: 35px;
+    color: #160f2c;
+    text-align: center;
+    
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    background: #505050;
+    color: #ffffff;
+    font-family: "Dongle", sans-serif;
+    font-size: 40px;
+    text-align: center; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: solid 3px rgb(32, 32, 32);
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 180px;
+    border-radius: 5px;
+    font-family: "Dongle", sans-serif;
+    color: #160f2c;
+    font-weight: 500;
+    font-size: 30px; 
+    background: rgb(255, 255, 255);
+    box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
