@@ -6,5 +6,5 @@
 ## O que foi aplicado:
 * Criação de funções;
 * Criação de eventos no JS;
-* if e else;
+* if e elsegit;
 * Operador ternário;

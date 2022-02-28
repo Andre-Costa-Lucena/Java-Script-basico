@@ -1,5 +1,6 @@
 const turnOn = document.getElementById ( "turnOn" )
 const turnOff = document.getElementById ( "turnOff" )
+const newL = document.getElementById( "newLight" )
 const lamp = document.getElementById ( "lamp" )
 
 
@@ -23,6 +24,13 @@ function lampBroken () {
     lamp.src = "./image/quebrada.jpg";
 }
 
+function newLight () {
+    if ( isLampBroken () ) {
+        lamp.src = "./image/desligada.jpg";
+    }
+}
+
+newL.addEventListener ( "click", newLight);
 turnOn.addEventListener ( "click", lampOn );
 turnOff.addEventListener ( "click", lampOff );
 lamp.addEventListener ( "mouseover", lampOn );

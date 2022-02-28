@@ -4,7 +4,45 @@ header, main{
     align-items: center;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 180px;
+    color: rgb(80, 80, 80);
+    border-radius: 5px;
+    background-color: rgb(187, 187, 187);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+    width: 180px;
+}
+
 .bot {
+    border: none;
+    border-radius: 5px;
     width: 80px;
+    height: 25px;
+    font-size: larger;
+    color: rgb(80, 80, 80);
+    background-color: rgb(187, 187, 187);
+    cursor: pointer;
+}
+
+.bot2{
+    width: 160px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    color: rgb(80, 80, 80);
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
 }
 
